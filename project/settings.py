@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9ml!eghah!__*jh3#l6!p*&cg#9=4)af=9q(z*c*yx9$2e6sq@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG',1)))
 
-ALLOWED_HOSTS = ['ec2-16-170-212-230.eu-north-1.compute.amazonaws.com','127.0.0.1']
+ALLOWED_HOSTS = ['ec2-16-170-212-230.eu-north-1.compute.amazonaws.com','127.0.0.1','.vercel.app','.now.sh','localhost']
 
 
 # Application definition
@@ -126,7 +126,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
