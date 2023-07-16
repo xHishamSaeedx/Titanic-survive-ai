@@ -1,5 +1,31 @@
-django==2.2
-numpy
-pandas
-tensorflow
-scikit-learn
+Django 2.2
+numpy 1.25.1
+pandas 2.0.3
+tensorflow 2.13.0
+scikit-learn 1.3.0
+pytz
+sqlparse
+python-dateutil
+tzdata
+absl-py
+astunparse
+flatbuffers
+gast
+google-pasta
+grpcio
+h5py
+keras
+libclang
+opt-einsum
+packaging
+protobuf
+setuptools
+six
+tensorboard
+tensorflow-estimator
+termcolor
+typing-extensions
+wrapt
+tensorflow-io-gcs-filesystem
+scipy
+joblib
